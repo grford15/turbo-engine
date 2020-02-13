@@ -1,0 +1,29 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+  font-size: 1.2rem;
+}
+
+.nav .menu-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav .menu-nav_item {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.nav .menu-nav_item a {
+  text-decoration: none;
+  color: #fbfbff;
+}
+
+.nav .menu-nav_item a:hover {
+  color: #01baef;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
