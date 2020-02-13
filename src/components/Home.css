@@ -1,0 +1,29 @@
+.home {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+      to bottom,
+      rgba(04, 15, 22, 0.95),
+      rgba(04, 15, 22, 0.8)
+    ),
+    url('../images/background-img.jpg');
+  background-size: cover;
+}
+
+.home-name {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  border-bottom: 2px solid #fbfbff;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.home-name_last {
+  color: #01baef;
+  font-weight: 600;
+}
