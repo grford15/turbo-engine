@@ -9,12 +9,16 @@ import './App.css';
 function App() {
   return (
     <>
-      <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </main>
     </>
   );
 }
