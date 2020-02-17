@@ -1,6 +1,6 @@
 import React from 'react';
 import projectImage from '../images/project-image.jpg';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import './Projects.css';
 
 const Projects = () => (
@@ -16,7 +16,8 @@ const Projects = () => (
             <h4>Project title</h4>
             <div>
               <a href="">
-                <FaGithub />
+                <FaGithub value={{ className: 'social-icons' }} />
+                <FaExternalLinkAlt />
               </a>
             </div>
           </div>
@@ -28,6 +29,7 @@ const Projects = () => (
             <div>
               <a href="">
                 <FaGithub />
+                <FaExternalLinkAlt />
               </a>
             </div>
           </div>
@@ -39,6 +41,7 @@ const Projects = () => (
             <div>
               <a href="">
                 <FaGithub />
+                <FaExternalLinkAlt />
               </a>
             </div>
           </div>

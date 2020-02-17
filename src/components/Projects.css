@@ -26,8 +26,9 @@
 .projects-items {
   display: grid;
   grid-template-columns: 1fr;
-  width: 80vw;
-  grid-row-gap: 1rem;
+  width: 60vw;
+  grid-gap: 2rem;
+  overflow: hidden;
 }
 
 .projects-item {
@@ -45,15 +46,14 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #01baef;
+  transition: background-color 0.5s ease;
   opacity: 0;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 
 .projects-item:hover::after {
   top: 0;
-  opacity: 0.9;
+  opacity: 0.95;
+  background-color: #01baef;
 }
 
 .projects-item img {
@@ -70,8 +70,14 @@
   display: grid;
   align-items: center;
   text-align: center;
+  opacity: 0;
 }
 
-.projects-item_description a {
+.projects-item:hover .projects-item_description {
+  opacity: 1;
+}
+
+.projects-item_description a svg {
+  margin: 0 1rem;
   color: #fbfbff;
 }
