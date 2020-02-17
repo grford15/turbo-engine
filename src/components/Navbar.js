@@ -17,17 +17,6 @@ class Navbar extends React.Component {
     const { displayMenu } = this.state;
     return (
       <>
-        <div className="menu-btn">
-          <button onClick={this.menuToggle}>
-            <span
-              className={
-                displayMenu
-                  ? 'menu-btn_burger open'
-                  : 'menu-btn_burger'
-              }
-            ></span>
-          </button>
-        </div>
         <nav className={displayMenu ? 'nav open' : 'nav'}>
           <ul className="menu-nav">
             <li className="menu-nav_item">
@@ -40,6 +29,17 @@ class Navbar extends React.Component {
               <Link to="/contact">Contact Me</Link>
             </li>
           </ul>
+          <div className="menu-btn">
+            <button onClick={this.menuToggle}>
+              <span
+                className={
+                  displayMenu
+                    ? 'menu-btn_burger open'
+                    : 'menu-btn_burger'
+                }
+              ></span>
+            </button>
+          </div>
         </nav>
       </>
     );

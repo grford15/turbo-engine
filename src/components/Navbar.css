@@ -1,13 +1,14 @@
-.menu-btn {
+.nav .menu-btn {
   position: absolute;
   z-index: 1;
-  right: 1rem;
+  right: -35px;
   top: 1rem;
   height: 20px;
   width: 28px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  visibility: visible;
 }
 
 .menu-btn_burger {

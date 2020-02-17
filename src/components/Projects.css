@@ -1,0 +1,39 @@
+.projects {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+      to bottom,
+      rgba(04, 15, 22, 0.95),
+      rgba(04, 15, 22, 0.8)
+    ),
+    url('../images/background-img.jpg');
+  background-size: cover;
+}
+
+.projects-title {
+  width: 35vw;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.projects-title h2 {
+  border-bottom: #fbfbff solid 2px;
+  padding: 0.5rem;
+}
+
+.projects-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 80vw;
+  grid-row-gap: 1rem;
+}
+
+.projects-item {
+  background: rgba(04, 15, 22, 0.95);
+  border: #fbfbff solid 1px;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
