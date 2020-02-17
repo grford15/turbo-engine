@@ -1,4 +1,6 @@
 import React from 'react';
+import projectImage from '../images/project-image.jpg';
+import { FaGithub } from 'react-icons/fa';
 import './Projects.css';
 
 const Projects = () => (
@@ -9,19 +11,37 @@ const Projects = () => (
       </div>
       <div className="projects-items">
         <div className="projects-item">
-          <h4>Project title</h4>
-          <h6>Projects technologies</h6>
-          <p>Project description</p>
+          <img src={projectImage} alt="project screenshot"></img>
+          <div className="projects-item_description">
+            <h4>Project title</h4>
+            <div>
+              <a href="">
+                <FaGithub />
+              </a>
+            </div>
+          </div>
         </div>
         <div className="projects-item">
-          <h4>Project title</h4>
-          <h6>Projects technologies</h6>
-          <p>Project description</p>
+          <img src={projectImage} alt="project screenshot"></img>
+          <div className="projects-item_description">
+            <h4>Project title</h4>
+            <div>
+              <a href="">
+                <FaGithub />
+              </a>
+            </div>
+          </div>
         </div>
         <div className="projects-item">
-          <h4>Project title</h4>
-          <h6>Projects technologies</h6>
-          <p>Project description</p>
+          <img src={projectImage} alt="project screenshot"></img>
+          <div className="projects-item_description">
+            <h4>Project title</h4>
+            <div>
+              <a href="">
+                <FaGithub />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
