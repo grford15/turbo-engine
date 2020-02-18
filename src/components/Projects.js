@@ -16,7 +16,7 @@ const Projects = () => (
             <h4>Project title</h4>
             <div>
               <a href="">
-                <FaGithub value={{ className: 'social-icons' }} />
+                <FaGithub />
                 <FaExternalLinkAlt />
               </a>
             </div>

@@ -10,6 +10,7 @@
     ),
     url('../images/background-img.jpg') center top;
   background-size: cover;
+  padding-bottom: 2rem;
 }
 
 .projects-title {
@@ -48,6 +49,7 @@
   width: 100%;
   transition: background-color 0.5s ease;
   opacity: 0;
+  border-radius: 5px;
 }
 
 .projects-item:hover::after {
