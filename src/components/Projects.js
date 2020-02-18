@@ -1,5 +1,6 @@
 import React from 'react';
 import projectImage from '../images/project-image.jpg';
+import rubyProject from '../images/ruby-screenshot.jpg';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import './Projects.css';
 
@@ -13,10 +14,13 @@ const Projects = () => (
         <div className="projects-item">
           <img src={projectImage} alt="project screenshot"></img>
           <div className="projects-item_description">
-            <h4>Project title</h4>
+            <h4>CodeClan: Ruby Project</h4>
+            <p>Made using Ruby, Sinatra, PostgreSQL, HTML & CSS</p>
             <div>
-              <a href="">
+              <a href="https://github.com/grford15/Gallery_Project">
                 <FaGithub />
+              </a>
+              <a href="https://gallery-app-18.herokuapp.com/">
                 <FaExternalLinkAlt />
               </a>
             </div>
@@ -25,10 +29,13 @@ const Projects = () => (
         <div className="projects-item">
           <img src={projectImage} alt="project screenshot"></img>
           <div className="projects-item_description">
-            <h4>Project title</h4>
+            <h4>CodeClan: Java Project</h4>
+            <p>Made using Java, Hibernate, PostgreSQL, HTML & CSS</p>
             <div>
-              <a href="">
+              <a href="https://github.com/grford15/RestaurantProject">
                 <FaGithub />
+              </a>
+              <a href="http://teamgrebi-restaurantapp.herokuapp.com/bookings">
                 <FaExternalLinkAlt />
               </a>
             </div>
@@ -37,10 +44,28 @@ const Projects = () => (
         <div className="projects-item">
           <img src={projectImage} alt="project screenshot"></img>
           <div className="projects-item_description">
-            <h4>Project title</h4>
+            <h4>CodeClan: JavaScript Project</h4>
+            <p>Made using React, JavaScript, API, HTML, CSS</p>
             <div>
-              <a href="">
+              <a href="https://github.com/grford15/Group_JavaScript_Project">
                 <FaGithub />
+              </a>
+              <a href="">
+                <FaExternalLinkAlt />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="projects-item">
+          <img src={projectImage} alt="project screenshot"></img>
+          <div className="projects-item_description">
+            <h4>Personal: Generic Product Site</h4>
+            <p>Made using JavaScript, HTML, CSS</p>
+            <div>
+              <a href="https://github.com/grford15/genericProductWebsite">
+                <FaGithub />
+              </a>
+              <a href="https://generic-product-website.netlify.com/">
                 <FaExternalLinkAlt />
               </a>
             </div>
