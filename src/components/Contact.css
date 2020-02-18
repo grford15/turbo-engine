@@ -18,6 +18,8 @@
   font-size: 2rem;
   margin-bottom: 2rem;
   margin-top: 0;
+  border-bottom: #fbfbff solid 1px;
+  padding-bottom: 0.5rem;
 }
 
 .contact-list {
@@ -37,4 +39,20 @@
   display: flex;
   justify-content: space-evenly;
   font-size: 1.7rem;
+}
+
+@media screen and (min-width: 768px) {
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .contact-list {
+    font-size: 1.6rem;
+  }
+
+  .contact-email svg,
+  .contact-phone svg {
+    margin-right: 1.5rem;
+  }
 }

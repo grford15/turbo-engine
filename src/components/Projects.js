@@ -1,6 +1,5 @@
 import React from 'react';
 import projectImage from '../images/project-image.jpg';
-import rubyProject from '../images/ruby-screenshot.jpg';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import './Projects.css';
 
@@ -49,9 +48,6 @@ const Projects = () => (
             <div>
               <a href="https://github.com/grford15/Group_JavaScript_Project">
                 <FaGithub />
-              </a>
-              <a href="">
-                <FaExternalLinkAlt />
               </a>
             </div>
           </div>

@@ -39,3 +39,19 @@
   height: 2rem;
   width: 2rem;
 }
+
+@media screen and (min-width: 768px) {
+  .home-name {
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+
+  .home-name_last {
+    font-weight: 700;
+  }
+
+  .social-icon {
+    height: 3rem;
+    width: 3rem;
+  }
+}

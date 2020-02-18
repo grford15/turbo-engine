@@ -30,7 +30,7 @@ class Navbar extends React.Component {
             </li>
           </ul>
           <div className="menu-btn">
-            <button onClick={this.menuToggle}>
+            <div onClick={this.menuToggle}>
               <span
                 className={
                   displayMenu
@@ -38,7 +38,7 @@ class Navbar extends React.Component {
                     : 'menu-btn_burger'
                 }
               ></span>
-            </button>
+            </div>
           </div>
         </nav>
       </>

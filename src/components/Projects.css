@@ -83,3 +83,26 @@
   margin: 0 1rem;
   color: #fbfbff;
 }
+
+@media screen and (min-width: 768px) {
+  .projects-title {
+    width: 50vw;
+    padding-top: 2.5rem;
+    text-align: center;
+  }
+
+  .projects-title h2 {
+    font-size: 2rem;
+  }
+
+  .projects-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80vw;
+    grid-gap: 3rem;
+  }
+
+  .projects-item {
+    font-size: 1.4rem;
+  }
+}
