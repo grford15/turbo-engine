@@ -18,7 +18,15 @@ const About = () => (
     </div>
     <div className="about-blurb">
       <h3>Bio</h3>
-      <p>Here's some stuff about me </p>
+      <p>
+        I am a largely self-taught software developer with a passion
+        for front-end technologies.{' '}
+      </p>
+      <p>
+        I have spent most of my time working with JavaScript, React,
+        HTML & CSS as well as experience with other languages listed
+        below during my time at CodeClan's bootcamp in Glasgow
+      </p>
       <h3>Skillset</h3>
       <div className="tech-icons">
         <DiJsBadge />

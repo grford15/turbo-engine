@@ -87,12 +87,13 @@
 @media screen and (min-width: 768px) {
   .projects-title {
     width: 50vw;
-    padding-top: 2.5rem;
+    padding: 2.5rem 0;
     text-align: center;
   }
 
   .projects-title h2 {
     font-size: 2rem;
+    padding: 1.5rem;
   }
 
   .projects-items {

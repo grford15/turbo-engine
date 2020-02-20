@@ -33,6 +33,7 @@
   cursor: pointer;
   color: #fbfbff;
   text-decoration: none;
+  margin: 0.5rem;
 }
 
 .home a:hover {
@@ -55,6 +56,12 @@
   width: 2rem;
 }
 
+.social-icon:hover {
+  color: #01baef;
+  transition: 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
 @media screen and (min-width: 768px) {
   .home-name {
     font-size: 3.5rem;
@@ -72,5 +79,6 @@
 
   .home a {
     font-size: 1.4rem;
+    margin: 1rem 0;
   }
 }
