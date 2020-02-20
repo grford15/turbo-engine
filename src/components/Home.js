@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => (
@@ -9,7 +10,9 @@ const Home = () => (
         Greg <span className="home-name_last">Rutherford</span>
       </h1>
       <h2>Software Developer based in Glasgow</h2>
-      <a>Find out more about me</a>
+      <Link to="/about" id="link">
+        Find out more about me
+      </Link>
       <div className="social-icons">
         <a href="https://github.com/grford15">
           <FaGithub className="social-icon" />

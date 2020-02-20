@@ -31,6 +31,8 @@
 
 .home a {
   cursor: pointer;
+  color: #fbfbff;
+  text-decoration: none;
 }
 
 .home a:hover {
