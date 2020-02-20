@@ -9,7 +9,9 @@ const Contact = () => (
     <div className="contact-list">
       <div className="contact-email">
         <MdEmail value={{ className: 'contact-icons' }} />
-        g.rutherford10@gmail.com
+        <a href="mailto:g.rutherford10@gmail.com">
+          g.rutherford10@gmail.com
+        </a>
       </div>
       <div className="contact-phone">
         <MdPhone />
