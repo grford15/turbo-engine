@@ -8,7 +8,8 @@ const Home = () => (
       <h1 className="home-name">
         Greg <span className="home-name_last">Rutherford</span>
       </h1>
-      <h2>Software Developer</h2>
+      <h2>Software Developer based in Glasgow</h2>
+      <a>Find out more about me</a>
       <div className="social-icons">
         <a href="https://github.com/grford15">
           <FaGithub className="social-icon" />

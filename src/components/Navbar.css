@@ -79,7 +79,11 @@
 
 .nav .menu-nav {
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.nav .menu-nav_item:last-child {
+  margin-top: 1rem;
 }
 
 .nav .menu-nav_item {
@@ -105,5 +109,15 @@
 
   .nav {
     visibility: visible;
+  }
+
+  .nav .menu-nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav .menu-nav_item:last-child {
+    margin-top: 0rem;
   }
 }
