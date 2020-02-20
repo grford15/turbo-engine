@@ -3,6 +3,17 @@ import projectImage from '../images/project-image.jpg';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import './Projects.css';
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.querySelector('nav').style.top = '0';
+  } else {
+    document.querySelector('nav').style.top = '-50px';
+  }
+  prevScrollpos = currentScrollPos;
+};
+
 const Projects = () => (
   <>
     <section className="projects">
