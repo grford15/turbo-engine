@@ -3,6 +3,7 @@ import projectImage from '../images/project-image.jpg';
 import rubyProject from '../images/ruby-project.jpg';
 import javascriptProject from '../images/javascript-project.jpg';
 import portfolioProject from '../images/portfolio-project.jpg';
+import javaProject from '../images/java-project.jpg';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import './Projects.css';
 
@@ -40,7 +41,7 @@ const Projects = () => (
           </div>
         </div>
         <div className="projects-item">
-          <img src={projectImage} alt="project screenshot"></img>
+          <img src={javaProject} alt="project screenshot"></img>
           <div className="projects-item_description">
             <h4>CodeClan: Java Project</h4>
             <p>Made using Java, Hibernate, PostgreSQL, HTML & CSS</p>
