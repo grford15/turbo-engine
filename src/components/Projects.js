@@ -1,5 +1,4 @@
 import React from 'react';
-import projectImage from '../images/project-image.jpg';
 import rubyProject from '../images/ruby-project.jpg';
 import javascriptProject from '../images/javascript-project.jpg';
 import portfolioProject from '../images/portfolio-project.jpg';
